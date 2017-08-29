@@ -41,6 +41,9 @@ public class RPG {
         //elevator keys
         public static boolean elevatorFixed=false;
         
+        //garden keys
+        public static boolean wellDrained=false;
+        
         //Kitchen lab key and metals 1. Copper 2. Aluminium 3. Gold 4. Zinc 5. Tin 6. Nickel 7. Magnesium 8. Iron
         public static boolean hammerKey=false;
         public static boolean Cu=false, Al = false, Au = false, Zn = false, Sn = false, Ni = false, Mg = false, Fe = false;
