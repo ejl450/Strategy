@@ -75,11 +75,13 @@ public class greatRoom {
 
     private static void labTable(boolean skip) {
         System.out.println("There is an arrangement of test tubes and beakers.");
+        greatRoom(skipText);
     }
     
     private static void southWall(boolean skip) {
         System.out.println("There are three large paintings along the wall.\nAbove them is a large plaque with the phrase \"Our Happy Family\".\nThe leftmost painting is of a young adult couple. They are dressed well and smiling. Far behind them in the distance is a silhouette of a human-looking being.");
         System.out.println("The painting in the center depicts four children playing around a tire swing in a wooded area. The same silhouette sits on a branch atop a tree near the children.");
         System.out.println("The final painting is of a large two-story house on a dark day. It's difficult to see, but it looks like the silhouette is looking out of an upstairs window.");
+        greatRoom(skipText);
     }
   }

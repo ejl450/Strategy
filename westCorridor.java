@@ -21,7 +21,7 @@ import static rpg.southCorridor.southCorridor;
 public class westCorridor {
     public static void westCorridor(boolean skip){
         if(skip==false){
-            System.out.println("You have reached the end of the western corridor.\n Straight ahead of you is an elevator. To the right, the hallway opens up to a large room.");
+            System.out.println("You have reached the end of the western corridor.\nStraight ahead of you is an elevator. To the right, the hallway opens up to a large room.");
         }
         
         System.out.println("\nChoose where to go");

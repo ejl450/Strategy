@@ -78,27 +78,22 @@ public class mudRoom {
                 userInput = userReader.nextInt();
                 switch (userInput){
                     case 1:
-                        garageDoor(showText);
+                        garageDoorCodeMenu(showText);
                         break;
                     case 2:
-                        hearthRoom(showText);
-                        break;
-                    case 3:
-                        courtYardMenu(skipText);
+                       mudRoom(showText);
                         break;
                     default:
                         System.out.println("Invalid Option.");
                         garageDoor(skipText);
                         
-                }
-            mudRoom(skipText);
-            
+                }          
         }
         else{
             //garage door opens 
         }
     }
-       public static void garageDoorCodeMenu(){
+       public static void garageDoorCodeMenu(boolean skip){
         
         System.out.println("Enter a code (ex: '999'). Enter '0' to go back.");
         //error checking

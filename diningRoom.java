@@ -110,7 +110,7 @@ public class diningRoom {
             else{
                 System.out.println("\nThe switches all flip down in unison. Must have been the wrong order.");
                 i=0;
-                diningRoom(skipText);
+                switches(skipText);
                 
             }
         }

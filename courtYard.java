@@ -154,7 +154,7 @@ public class courtYard {
         while (!userReader.hasNextInt()) 
         {        
             userReader.next(); // Read and discard offending non-int input
-            System.out.print("Enter a code (ex: '9999'). Enter '0' to go back."); // Re-prompt
+            System.out.println("Enter a code (ex: '9999'). Enter '0' to go back."); // Re-prompt
         }          
         userInput = userReader.nextInt();
         

@@ -56,7 +56,7 @@ public class kitchen {
             System.out.println("\nThe kitchen is surprisingly bare.\nThe only things lying around are some plastic cups, paper towels, and an empty dish rack.");
             System.out.println("On the northeast corner of the kitchen is a large metal door. It looks like a walk-in freezer.\nIn the center of the south wall is an open doorway.");
         }
-            System.out.println("Choose where to go");
+            System.out.println("\nChoose where to go");
                 System.out.println("-------------------------\n");
                 System.out.println("1. Walk-in freezer");
                 System.out.println("2. Open doorway");
@@ -70,7 +70,7 @@ public class kitchen {
                         labRoom(showText);
                         break;
                     case 3:
-                        eastCorridor(showText);
+                        eastCorridor(skipText);
                         break;
                     default:
                         System.out.println("Invalid Option.");
@@ -120,7 +120,7 @@ public class kitchen {
             //create the hammer key
         System.out.println("It's a relatively small room. It looks like a lab.\nThere is a strong metallic smell emanating from the room.\nThere are various devices and metals on a table at the southern end of the room.");
         }            
-        System.out.println("Choose where to go");
+        System.out.println("\nChoose where to go");
         System.out.println("-------------------------\n");
         System.out.println("1. Lab Table");
         System.out.println("2. Kitchen");

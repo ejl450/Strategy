@@ -18,13 +18,14 @@ import static rpg.southCorridor.southCorridor;
  *
  * @author lynne
  */
-public class eastCorridor {
-    public static void eastCorridor(boolean skip){
+public class garage {
+    public static void garage(boolean skip){
+        //Give user limited options 
         if(skip==false){
-        System.out.println("The hallway continues south for a bit.\nEventually, two rooms become visible. \nOn the east wall is a Kitchen, and southeast is a Dining Room.\nThe hallway continues to the west.\n");
-        }
+        System.out.println("The garage is dimly lit. You will be able to navigate around, but a light source ");
         
-        System.out.println("\nChoose where to go");
+        
+        System.out.println("Choose where to go");
                 System.out.println("-------------------------\n");
                 System.out.println("1. Kitchen");
                 System.out.println("2. Dining Room");
@@ -47,8 +48,9 @@ public class eastCorridor {
                         break;
                     default:
                         System.out.println("Invalid Option.");
-                        eastCorridor(skipText);
+                        garage(skipText);
+                        break;
                 }
+        }
     }
-    
 }

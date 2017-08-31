@@ -19,6 +19,8 @@ import java.util.Properties;
  */
 public class RPG {
     //saved data
+    
+    //NOTES FOR METHOD INCEPTION: If the number of method calls gets too high (counter), if the counter gets higher than a pre-determined threshold, stop all processes and re-run the current method for the user.
     public static String storedID,storedArea;
         //courtyard keys
         public static boolean carCode = false, porchKey = false, carKey = false, crowBar=false;
@@ -40,9 +42,6 @@ public class RPG {
         
         //elevator keys
         public static boolean elevatorFixed=false;
-        
-        //garden keys
-        public static boolean wellDrained=false;
         
         //Kitchen lab key and metals 1. Copper 2. Aluminium 3. Gold 4. Zinc 5. Tin 6. Nickel 7. Magnesium 8. Iron
         public static boolean hammerKey=false;
