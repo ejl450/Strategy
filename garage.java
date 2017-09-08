@@ -20,30 +20,36 @@ import static rpg.southCorridor.southCorridor;
  */
 public class garage {
     public static void garage(boolean skip){
-        //Give user limited options 
         if(skip==false){
-        System.out.println("The garage is dimly lit. You will be able to navigate around, but a light source ");
+        System.out.println("The garage is lit by two rows of four lights evenly spaced across the ceiling.\nOn the right side of the garage door there are four buttons, each with a corresponding garage number.\n"
+                + "Along the west side of the room are the four garage doors.\nThe eastern wall has a small metal hatch that looks like it opens downwards.\nBeyond the hatch, there is metal shelving with some "
+                + "items littered over it.\nThe southern wall ");
         
         
         System.out.println("Choose where to go");
                 System.out.println("-------------------------\n");
-                System.out.println("1. Kitchen");
-                System.out.println("2. Dining Room");
-                System.out.println("3. Southern Corridor");
-                System.out.println("4. Hearth Room");
+                System.out.println("1. Garage Door Buttons");
+                System.out.println("2. Garage Doors");
+                System.out.println("3. Hatch");
+                System.out.println("4. Metal Shelving");
+                System.out.println("5. Southern Wall");
+                System.out.println("6. Mud Room");
                 
                 userInput = userReader.nextInt();
                 switch (userInput){
                     case 1:
-                        kitchen(showText);
+                        garageDoorButtons(showText);
                         break;
                     case 2:
-                        diningRoom(showText);
+                        garageDoors(showText);
                         break;
                     case 3:
-                        southCorridor(showText);
+                        garageHatch(showText);
                         break;  
                     case 4:
+                        metalShelving(skipText);
+                        break;
+                    case 5:
                         hearthRoom(skipText);
                         break;
                     default:
@@ -52,5 +58,22 @@ public class garage {
                         break;
                 }
         }
+    }
+    
+
+    public static void garageDoorButtons(boolean skip){
+        
+    }
+    
+    public static void garageDoors(boolean skip){
+        
+    }
+    
+    public static void garageHatch(boolean skip){
+        
+    }
+    
+    public static void metalShelving(boolean skip){
+        
     }
 }

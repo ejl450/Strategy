@@ -15,10 +15,12 @@ import static rpg.RPG.lighter;
 import static rpg.RPG.saveGame;
 import static rpg.RPG.showText;
 import static rpg.RPG.skipText;
+import static rpg.RPG.garageCode;
 import static rpg.courtYard.carCodeMenu;
 import static rpg.courtYard.userInput;
 import static rpg.courtYard.courtYardMenu;
 import static rpg.courtYard.userReader;
+import static rpg.garage.garage;
 import static rpg.hearthRoom.hearthRoom;
 import static rpg.kitchen.kitchen;
 
@@ -112,19 +114,19 @@ public class mudRoom {
         else if(userInput < 100 || userInput > 999)
         {
             System.out.println("The numberpad lit up red. The code didn't work.\n");
-            carCodeMenu();
+            garageDoorCodeMenu(skipText);
             return;
         }       
         else if(userInput == 351){
             //Code is 3 5 1 => figure this out from the paintings in the great room
             System.out.println("The numberpad lit up green and the door opened!");
-
-            courtYardMenu(skipText);
+            garageCode=true;
+            garage(showText);
             return;
     }
         else{
             System.out.println("The numberpad lit up red. The code didn't work.\n");
-            carCodeMenu();
+            garageDoorCodeMenu(skipText);
             return;
         }
         
