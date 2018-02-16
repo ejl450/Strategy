@@ -44,7 +44,10 @@ public class RPG {
         public static boolean elevatorFixed=false;
         
         //garage keys
-        public static boolean garageCode = false;
+        public static boolean garageCode = false; public static boolean garageOpen=false; public static boolean crudeOil=false;
+        
+        //garden keys 
+        public static boolean wellDrained = false;
         
         //Kitchen lab key and metals 1. Copper 2. Aluminium 3. Gold 4. Zinc 5. Tin 6. Nickel 7. Magnesium 8. Iron
         public static boolean hammerKey=false;
@@ -102,6 +105,9 @@ public class RPG {
                 freezer = Boolean.valueOf(prop.getProperty("freezer"));
                 elevatorFixed = Boolean.valueOf(prop.getProperty("elevatorFixed"));
                 garageCode = Boolean.valueOf(prop.getProperty("garageCode"));
+                garageOpen = Boolean.valueOf(prop.getProperty("garageOpen"));
+                crudeOil = Boolean.valueOf(prop.getProperty("crudeOil"));
+                wellDrained = Boolean.valueOf(prop.getProperty("wellDrained"));
                 }
                 else{
                     System.out.println("ID not recognized, try again");

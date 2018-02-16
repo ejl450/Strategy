@@ -64,7 +64,6 @@ public class southCorridor {
         System.out.println("\nThe corridor continues west.\nWhere the hallway meets the Western Corridor two more rooms become visible. They look like standard bedrooms. The doors are closed.");
         }
         
-        
         System.out.println("\nChoose where to go");
                 System.out.println("-------------------------\n");
                 System.out.println("1. Cross Room");

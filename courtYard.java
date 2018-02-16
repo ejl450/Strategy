@@ -79,7 +79,7 @@ public class courtYard {
                 if(skip==false){
                     System.out.println("It's a Bentley. Looks pristine. There's a number pad on the driver side door. It's probably a four digit code.");
                     System.out.println("There is a small American flag embedded on the rear passenger side door. In the blue square it has only 13 stars, in a circular pattern.");
-                    System.out.println("The license plate reads 'AD-AGGF'.\n");
+                    System.out.println("The license plate reads 'AGGF-0604'.\n");
                 }
                 
                 System.out.println("Choose where to go");

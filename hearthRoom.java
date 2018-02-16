@@ -88,8 +88,9 @@ public class hearthRoom {
     public static void hearthDesk(){//six switches, this order: FIRST THIRD FIFTH SECOND SIXTH FOURTH
         //System.out.println("The desk has a typewriter on it.\nThe typewriter has a piece of paper in its slot. It has a single line of text. It reads 'SVEFG GUVEQ SVSGU FRPBAQ FVKGU SBHEGU'");//ROT13 encrypted text
         System.out.println("The desk has a typewriter on it.\nThe typewriter has a piece of paper in its slot with the following written on it:");
-        System.out.println("\nRealize that there are different ways to approach this. \nOptions are available that are not permanent.  \nTreat yourself.  \n" +
-"–excerpt 13\n");
+        System.out.println("ENCRYPTION 101 - Substitution Ciphers\nROT13 - A cipher that replaces a letter with the letter 13 places after it in the alphabet.\n" +
+"Keyword Substitution - Choose a keyword and remove all spaces and repeated letters in it. Then replace the start of the alphabet with the keyword and the end of the cipher alphabet is the rest"
+                + "of the alphabet without repeating letters in the keyword.");
         System.out.println("There is nothing else of interest here");
         hearthRoom(skipText);
         

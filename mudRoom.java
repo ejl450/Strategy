@@ -119,7 +119,7 @@ public class mudRoom {
         }       
         else if(userInput == 351){
             //Code is 3 5 1 => figure this out from the paintings in the great room
-            System.out.println("The numberpad lit up green and the door opened!");
+            System.out.println("The numberpad lit up green and the door opened!\n");
             garageCode=true;
             garage(showText);
             return;

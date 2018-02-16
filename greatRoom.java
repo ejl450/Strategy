@@ -52,7 +52,7 @@ public class greatRoom {
                         //porch();
                         break;
                     case 2:
-                        labTable(showText);
+                        computerTable(showText);
                         break;
                     case 3:
                         southWall(showText);
@@ -73,7 +73,7 @@ public class greatRoom {
                 }
     }
 
-    private static void labTable(boolean skip) {
+    private static void computerTable(boolean skip) {
         System.out.println("There is an arrangement of test tubes and beakers.");
         greatRoom(skipText);
     }
